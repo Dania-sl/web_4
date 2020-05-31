@@ -1,0 +1,192 @@
+.home_1{
+    display: inline-block;
+}
+.div_1{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+.div_1_window{
+    width: 50px;
+    height: 80px;
+    background-color: rgb(133, 168, 231);
+    position: relative;
+    top: -160px;
+    left: 30px;
+    z-index: 2;
+}
+.div_1_door{
+    width: 70px;
+    height: 120px;
+    background-color: saddlebrown;
+    top: -200px;
+    left: 110px;
+    z-index: 2;
+    position: relative;
+}
+.div_roof{
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #616161;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index: 2;
+    position: relative;
+
+}
+.home_2{
+    display: inline-block;
+}
+.div_2{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 148px;
+    left: 828px;
+}
+.div_2_window{
+    width: 50px;
+    height: 80px;
+    background-color: rgb(133, 168, 231);
+    position: absolute;
+    top: 188px;
+    left: 858px;
+    z-index: 2;
+}
+.div_2_door{
+    width: 70px;
+    height: 120px;
+    background-color: saddlebrown;
+    top: 228px;
+    left: 938px;
+    z-index: 2;
+    position: absolute;
+}
+.div_2_roof{
+    top: 8px;
+    left: 828px;
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #616161;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index: 2;
+    position: absolute;
+
+}
+.home_3{
+    display: inline-block;
+}
+.div_3{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: static;
+    z-index: 1;
+}
+.div_3_window{
+    width: 50px;
+    height: 80px;
+    background-color: rgb(133, 168, 231);
+    position: static;
+    margin-left: 30px;
+    z-index: 2;
+}
+.div_3_door{
+    width: 70px;
+    height: 120px;
+    background-color: saddlebrown;
+    margin-left: 110px;
+    z-index: 2;
+    position: static;
+}
+.div_3_roof{
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #616161;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index: 2;
+    position: static;
+
+}
+.home_4{
+    display: inline-block;
+}
+.div_4{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    z-index: 1;
+}
+.div_4_window{
+    width: 50px;
+    height: 80px;
+    background-color: rgb(133, 168, 231);
+    position: sticky;
+    margin-left: 30px;
+    z-index: 2;
+}
+.div_4_door{
+    width: 70px;
+    height: 120px;
+    background-color: saddlebrown;
+    margin-left: 110px;
+    z-index: 2;
+    position: sticky;
+}
+.div_4_roof{
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #616161;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index: 2;
+    position: sticky;
+
+}
+.home_5{
+    display: inline-block;
+}
+.div_5{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 148px;
+    z-index: 1;
+}
+.div_5_window{
+    width: 50px;
+    height: 80px;
+    background-color: rgb(133, 168, 231);
+    position: fixed;
+    top: 190px;
+    left: 655px;
+    z-index: 2;
+}
+.div_5_door{
+    width: 70px;
+    height: 120px;
+    background-color: saddlebrown;
+    top: 228px;
+    left: 735px;
+    z-index: 2;
+    position: fixed;
+}
+.div_5_roof{
+    width: 0;
+    height: 0;
+    top: 8px;
+    border-bottom: 140px solid #616161;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index: 2;
+    position: fixed;
+
+}
